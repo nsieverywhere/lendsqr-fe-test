@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lendsqr-fe-test/static/css/main.359f698e.css",
-    "main.js": "/lendsqr-fe-test/static/js/main.babd9a6f.js",
+    "main.js": "/lendsqr-fe-test/static/js/main.c62b6fb4.js",
     "static/media/work.jpg": "/lendsqr-fe-test/static/media/work.1b5be5e5a6eccfcf02a0.jpg",
     "index.html": "/lendsqr-fe-test/index.html",
     "main.359f698e.css.map": "/lendsqr-fe-test/static/css/main.359f698e.css.map",
-    "main.babd9a6f.js.map": "/lendsqr-fe-test/static/js/main.babd9a6f.js.map"
+    "main.c62b6fb4.js.map": "/lendsqr-fe-test/static/js/main.c62b6fb4.js.map"
   },
   "entrypoints": [
     "static/css/main.359f698e.css",
-    "static/js/main.babd9a6f.js"
+    "static/js/main.c62b6fb4.js"
   ]
 }
