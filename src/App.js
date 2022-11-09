@@ -32,14 +32,14 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Login />} exact />
-        <Route path="page" element={<Pageframe />} >
+        {/* <Route path="page" element={<Pageframe />} >
           <Route
             path="dashboard"
             element={<Dashboard data={data} />}
           />
           <Route path="user" element={<User data={data} />} />
           <Route path="userdetails" element={<Userdetails />} />
-        </Route>
+        </Route> */}
       </Routes>
       
       
