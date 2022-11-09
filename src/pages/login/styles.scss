@@ -1,0 +1,33 @@
+$backcolor: white;
+
+.body {
+    background-color: $backcolor;
+    min-height: 100vh;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 5rem 8rem;
+}
+
+.logo {
+    width: 10rem;
+    margin-bottom: 5rem;
+}
+
+.banner {
+    width: 20rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.loginbtn {
+    background-color: #39CDCC;
+    color: white;
+
+    &:hover {
+        background-color: #27adad;
+        color: white;
+    }
+}

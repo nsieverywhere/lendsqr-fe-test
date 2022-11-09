@@ -1,0 +1,33 @@
+$background: rgb(68, 68, 68);
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #39CDCC;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+   a {
+        display: block;
+        color: $background;
+        padding: 8px;
+        text-decoration: none;
+
+        .icon{
+        margin-right: 0.5rem;
+        }
+    }
+
+    a.active {
+        background-color: #314e87;
+        color: white;
+    }
+
+     a:hover:not(.active) {
+        background-color: #f8f9fa;
+        color:  $background;
+    }
+
+    }
