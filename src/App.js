@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <Sidebar />
       <Routes>
         <Route path="/" element={<Login />} exact />
         {/* <Route path="page" element={<Pageframe />} >
