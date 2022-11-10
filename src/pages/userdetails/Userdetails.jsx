@@ -36,9 +36,18 @@ export default function Userdetails() {
           <p>Gender: {object.profile.gender} </p>
         </div>
       </div>
-      <div class="col-12 overview">
+      <div class="row overview">
         <div class="col-lg-3 ">
           <H6>Education and Employment</H6>
+          <p>Level of Education: {object.education.level} </p>
+          <p>Employment Status: {object.education.employmentStatus} </p>
+        </div>
+        <div class="col-lg-3 ">
+          <p>Sector: {object.education.sector} </p>
+          <p>Loan Repayment: {object.education.loanRepayment} </p>
+        </div>
+        <div class="col-lg-3 ">
+          <p>Duration of Employment: {object.education.duration} </p>
         </div>
       </div>
     </div>
