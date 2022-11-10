@@ -14,14 +14,33 @@ export default function Userdetails() {
   console.log(object.profile.firstName);
 
   return (
-    <div>
+    <div class="row">
       <H6>USER DETAILS</H6>
       <H1>Welcome!</H1>
-      <div class="col-12 overview">
-        <p>First Name: {object.profile.firstName} </p>
-        <p>Last Name: {object.profile.lastName} </p>
+      <div class="row overview">
+        <div class="col-lg-3 ">
+          <H6>Personal Information</H6>
+
+          <p>
+            Full Name: {object.profile.firstName} {object.profile.lastName}{" "}
+          </p>
+        </div>
+        <div class="col-lg-3 ">
+          <p>Email: {object.email} </p>
+          <p>Phone: {object.phoneNumber} </p>
+        </div>
+        <div class="col-lg-3 ">
+          <p>BVN: {object.profile.bvn} </p>
+        </div>
+        <div class="col-lg-3 ">
+          <p>Gender: {object.profile.gender} </p>
+        </div>
       </div>
-      <div class="col-12 overview"></div>
+      <div class="col-12 overview">
+        <div class="col-lg-3 ">
+          <H6>Education and Employment</H6>
+        </div>
+      </div>
     </div>
   );
 }
