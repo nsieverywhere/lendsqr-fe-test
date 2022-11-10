@@ -29,7 +29,7 @@ export default function User(props) {
               <td>{item.email}</td>
               <td>{item.orgName}</td>
               <td>
-                <Link class="active" to="/page/userdetails" id={item.id}>
+                <Link class="active" to="/page/userdetails" id={item.id} state={{id:item.id, data:props.data}}>
                   <FontAwesomeIcon icon={faEllipsisVertical} />
                 </Link>
               </td>
