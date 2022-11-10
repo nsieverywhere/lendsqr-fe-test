@@ -71,9 +71,6 @@ export default function Login() {
             </button>
           </form>
 
-            <Link to="/page">
-              page
-          </Link>
         </div>
       </div>
     </div>
